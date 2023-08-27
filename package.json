@@ -1,6 +1,7 @@
 {
   "name": "space-travel",
   "version": "0.1.0",
+  "homepage": "https://Jguedel.github.io/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -10,6 +11,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.1",
+    "gh-pages": "^6.0.0",
     "nanoid": "^4.0.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
@@ -22,6 +24,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
