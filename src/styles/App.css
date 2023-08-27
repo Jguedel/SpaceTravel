@@ -1,0 +1,102 @@
+/* GENERAL */
+body {
+  background-color: black;
+  width: 100%;
+}
+.firstRow {
+  padding-top: 1rem;
+}
+/* LOADING */
+.loading {
+  font-size: 10rem;
+  margin: auto;
+  color: white;
+}
+/* NAV */
+a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+a:hover {
+  color: blue;
+}
+
+/* HOME */
+.Heading {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+.homeContent {
+  color: white;
+  padding-top: 1rem;
+}
+.homeContentHead {
+  font-size: 2rem;
+}
+.homeContentBody {
+  border: dashed 1px white;
+  font-size: 1.25rem;
+  padding: 1rem;
+}
+/* SPACECRAFT */
+.singleShip {
+  margin-top: 2rem;
+  border: solid 1px white;
+}
+.shipPicture {
+  margin: 0.5rem;
+}
+.shipPicture img {
+  max-height: 100px;
+  max-width: 200px;
+  object-fit: fill;
+}
+.shipInfo {
+  color: white;
+  font-size: 2rem;
+}
+.delBtn {
+  margin-top: 40%;
+}
+
+/* PLANETS */
+.singlePlanet {
+  margin: 2rem auto;
+  border: dashed 1px white;
+  max-width: 80%;
+}
+.planetPic {
+  margin: 1rem;
+  font-size: 1rem;
+  color: white;
+}
+.clicked {
+  outline: dashed 3px green;
+}
+.planetPic img {
+  outline: dashed 1px white;
+}
+.planetShipInfo {
+  font-size: 1rem;
+  color: white;
+}
+.planetShipInfo img {
+  max-height: 100px;
+  max-width: 200px;
+  object-fit: fill;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.shipsOnPlanet {
+  margin: 1rem;
+  max-width: 100px;
+}
+.shipsOnPlanet img:hover {
+  outline: dashed 3px green;
+}
