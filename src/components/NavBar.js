@@ -15,7 +15,7 @@ const NavBar = () => {
       as="ul"
     >
       <Nav.Item as="li">
-        <Link to={"/"}>
+        <Link to={"/spaceTravel"}>
           <FontAwesomeIcon icon={faEarthAmericas} /> Home
         </Link>
       </Nav.Item>

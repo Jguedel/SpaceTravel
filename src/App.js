@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/spaceTravel" element={<Home />} />
           <Route path="/SpaceCraft" element={<SpaceCraft />} />
           <Route path="/Planets" element={<Planets />} />
           <Route
